@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InkFree&display=swap');
+
+
+body {
+    background-color: #fef9f8 !important;
+    color: #000;
+}
+
+.navbar {
+    background-color: #ef9273;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Ink Free';
+    font-size: 26px !important;
+}
+
+.collapse > ul > li > a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.container {
+    font-family: 'Caladea', sans-serif;
+    margin-top: 40px;
+}
+
+.container .img-fluid{
+    margin: auto;
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.container h3 {
+    font-weight: 600;
+}
+
+.col-md-5 p {
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.carousel-caption{
+    background-color: #000;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-item p, h5 {
+    color: #fff;
+}
+
+#carousel {
+    background-color: #d96a5d;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+#carousel img {
+    border: none;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #ef9273;
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Ink free';
+    font-size: 22px;
+}
+
+.logo:hover {
+    color: #000;
+}
+
+.contact {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.footer .col-md {
+    margin: 5px;
+}
+
+.footer .col-md ul li{
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer .col-md ul li:first-child {
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.footer .col-md i {
+    margin: 10px;
+}
+
+#uni {
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    #pg {
+        font-size: 14px;
+    }
+
+    #uni {
+        margin-bottom: 30px;
+    }
+}

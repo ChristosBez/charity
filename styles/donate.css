@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InkFree&display=swap');
+
+
+body {
+    background-color: #fef9f8 !important;
+    color: #000;
+}
+
+.navbar {
+    background-color: #ef9273;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+
+.collapse > ul > li > a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.navbar-brand {
+    font-family: 'Ink Free';
+    font-size: 26px !important;
+}
+
+.footer {
+    background-color: #ef9273;
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Ink free';
+    font-size: 22px;
+}
+
+.logo:hover {
+    color: #000;
+}
+
+.contact {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.footer .col-md {
+    margin: 5px;
+}
+
+.footer .col-md ul li{
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer .col-md ul li:first-child {
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.footer .col-md i {
+    margin: 10px;
+}
+
+/* New styles */
+
+/* Wall */
+#wall {
+    padding: 40px 20px;
+    background-color: #d96a5d;
+    color: #fff;
+    font-family: 'Caladea', sans-serif;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+#quote2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#person {
+    text-align: end;
+    font-style: italic;
+}
+
+/* Donate table */
+
+#donate {
+    background-color: #fcd5ce;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#once {
+    background-color: #fff;
+    font-family: 'Rubik';
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+#monthly {
+    background-color: #d96a5d;
+    color: #fff;
+    font-family: 'Rubik';
+    padding: 10px;
+}
+
+/* Footer */
+.row:last-child {
+    margin: 0;
+}
+
+.row {
+    margin: 20px;
+}
+
+.sums {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.sum {
+    display: inline-block;
+    background-color: #d96a5d;
+    color: #fff;
+    font-family: 'Rubik';
+    padding: 5px 10px;
+    margin: 20px;
+    border: 1px solid #000;
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sums {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+#credit {
+   margin-top: 15px;
+}
+
+.form-check {  
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.next {
+    align-self: center;
+}
+
+.back {
+    align-self: center;
+}
+
+#next {    
+    background-color: #d96a5d;
+    color: #fff;
+    border-radius: 30px;
+    width: 600px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#back {    
+    margin-top: 20px;
+    background-color: #8b8b8b;
+    color: #fff;
+    border-radius: 30px;
+    width: 400px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#next:active, #back:active {
+    transform: scale(0.98);
+}
+
+#next:hover, #back:hover {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+a > #next{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    #next {
+        font-size: 14px;
+        width: 250px;
+    }
+
+    #back {
+        font-size: 14px;
+        width: 200px;
+    }
+}

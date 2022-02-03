@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InkFree&display=swap');
+
+
+body {
+    background-color: #fef9f8 !important;
+    color: #000;
+}
+
+.navbar {
+    background-color: #ef9273;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+
+.collapse > ul > li > a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.navbar-brand {
+    font-family: 'Ink Free';
+    font-size: 26px !important;
+}
+
+.footer {
+    background-color: #ef9273;
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Ink free';
+    font-size: 22px;
+}
+
+.logo:hover {
+    color: #000;
+}
+
+.contact {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.footer .col-md {
+    margin: 5px;
+}
+
+.footer .col-md ul li{
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer .col-md ul li:first-child {
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.footer .col-md i {
+    margin: 10px;
+}
+
+
+/* New styles */
+
+.col-md > .btn {
+    background-color: #d96a5d;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content > .row > .col-md > p {
+    text-align: center;
+    font-family: 'Caladea', sans-serif;
+    font-size: 18px;
+}
+
+.col-md h3 {
+    font-weight: 600;
+    font-family: 'Caladea', sans-serif;
+}
+
+.content > .row > .col-md {
+    border: 2px solid #000;
+}
+
+.content {
+    font-size: 18px;
+}
